@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    
+       <!-- inceput row-imagini--> 
+       <div class="row"> 
+       <div class=""col-sm-12 col-md-12">  
+             <img src="images/visual.png"  alt="Web development" class="img-thumbnail" >
+             <img src="images/eu.jpg"  alt="Loredana" class="img-thumbnail" >
+             <img src="images/Asp.png"  alt="Web development" class="img-thumbnail" >
+             </div></div>  <!--  Sfarsit row-imagini -->  
+             
+      
+       <div class="col-sm-12 col-md-12" style="background-color: white;">
+
+         <center> 
+         <a class href="https://www.linkedin.com/in/toma-loredana-127ba767/" ><img src="images/linkedin.png" class="img-thumbnail" alt="linkedin" width="35" height="35"</a>
+         <a class href="https://github.com/LoredanaToma" ><img src="images/git.png" class="img-thumbnail" alt="git" width="35" height="35"</a>
+         
+        </center>
+          
+
+         <div class="row">  
+     <div class="col-sm-12 col-md-12" style="background-color: white;">             
+       <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="default.aspx">About me</a>
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="dotnet.aspx">.NET </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">HTML/CSS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">JAVA FX</a>
+      </li>
+    </ul>
+  </div>
+</nav> </div></div><!--sf de header -->
+
+        
+
+        <asp:ContentPlaceHolder id="ContentBody" runat="server"></asp:ContentPlaceHolder>
+    </div>
+        <asp:ContentPlaceHolder ID="footer" runat="server"></asp:ContentPlaceHolder>
+       <div class="col-sm-12 col-md-12" style="background-color: white;">
+
+         <center> 
+      Made by Loredana toma
+         
+        </center>
+    </form>
+    <asp:ContentPlaceHolder ID="Contentjs" runat="server">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </asp:ContentPlaceHolder>
+</body>
+</html>
