@@ -17,12 +17,13 @@
     <div>
     
        <!-- inceput row-imagini--> 
-       <div class="row"> 
-       <div class=""col-sm-12 col-md-12">  
-             <img src="images/visual.png"  alt="Web development" class="img-thumbnail" >
-             <img src="images/eu.jpg"  alt="Loredana" class="img-thumbnail" >
-             <img src="images/Asp.png"  alt="Web development" class="img-thumbnail" >
-             </div></div>  <!--  Sfarsit row-imagini -->  
+
+          <div class="row"> 
+           <div class="col-sm-4 col-md" style="background-color: white " ><img src="images/visual.png" alt="Web development" class="img-thumbnail ></div>
+           <div class="col-sm-4 col-md" style="background-color: white " ><img src="images/eu.jpg"   alt="Web development" class="img-thumbnail ></div> 
+           <div class="col-sm-4 col-md" style="background-color: white " ><img src="images/Asp.png" alt="Web development" class="img-thumbnail ></div>
+         </div> 
+       <!--  Sfarsit row-imagini -->  
              
       
        <div class="col-sm-12 col-md-12" style="background-color: white;">
@@ -52,7 +53,7 @@
         <a class="nav-link" href="dotnet.aspx">.NET </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">HTML/CSS</a>
+        <a class="nav-link" href="goodfood.aspx">HTML/CSS/JS</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">JAVA FX</a>
@@ -63,10 +64,10 @@
 
         
 
-        <asp:ContentPlaceHolder id="ContentBody" runat="server"></asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder id="ContentBody" runat="server" ></asp:ContentPlaceHolder>
     </div>
         <asp:ContentPlaceHolder ID="footer" runat="server"></asp:ContentPlaceHolder>
-       <div class="col-sm-12 col-md-12" style="background-color: white;">
+       <div class="col-sm-12 col-md-12" style="background-color: #2a2a2b; color:white">
 
          <center> 
       Made by Loredana toma

@@ -4,7 +4,7 @@
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentBody" Runat="Server">
     <div class="row">  <!--  inceput contacts details -->  
            
-            <div class="col-sm-6 col-md" style="background-color: white"> 
+            <div class="col-sm-6 col-md" style="background-color: white" > 
 
     <b>Contact details</b></br>Nationality: Romanian</br>
 
@@ -17,7 +17,7 @@
 
     <b>Education</b></br>
      Period:2016-2018       
-     “Applied software and programming” - postgraduate conversion course to IT</br>
+     “Applied informatics and programming” - postgraduate conversion course to IT</br>
      Technical University of Cluj-Napoca (master) </div> 
 
            <div class="col-sm-6 col-md" style="background-color: white">
